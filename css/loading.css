@@ -1,0 +1,16 @@
+.navbar {
+  height:100%;
+}
+.navbar-brand,
+.fa,
+#l-a,
+#l-b,
+#l-c,
+#l-d,
+#l-e,
+#l-f,
+#l-x,
+#l-y,
+#l-z {
+  display:none!important;
+}

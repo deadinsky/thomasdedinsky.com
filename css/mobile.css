@@ -1,0 +1,92 @@
+body {
+  font-size:54px;
+}
+h1 {
+  font-size:72px;
+}
+h2 {
+  font-size:66px;
+}
+h3 {
+  font-size:60px;
+}
+h4 {
+  font-size:54px;
+}
+h4 i {
+  padding-right:15px;
+}
+h5 {
+  font-size:42px;
+}
+h6 {
+  font-size:36px;
+}
+p {
+  margin:0 0 25px;
+  font-size:54px;
+  line-height:1.5;
+}
+.navbar {
+  min-height:100px;
+}
+.navbar-brand {
+  font-size:50px;
+  height:100px;
+  line-height:70px;
+  position:absolute;
+}
+.navbar-fixed-top .navbar-collapse {
+  max-height:600px;
+}
+.navbar-nav {
+  margin-bottom:27.5px;
+}
+.navbar-nav > li > a {
+  padding-top:35px;
+  padding-bottom:35px;
+  font-size:60px;
+}
+.navbar-toggle {
+  padding:8px 15px 8px 30%;
+  margin:0!important;
+  height:100px;
+}
+.navbar-custom {
+  border-bottom:1px solid rgba(255, 255, 255, .3);
+}
+.navList {
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.container-fluid {
+  padding-top:100px;
+}
+.row {
+  margin:0!important;
+}
+.column {
+  position:relative;
+  min-height:1px;
+  padding-right:15px;
+  padding-left:15px;
+  overflow-wrap:break-word;
+}
+.column-w-img > div > h4 {
+  margin:0 0 0px;
+  text-align:left;
+}
+.column-w-img > div > p {
+  text-align:left;
+}
+#all-sections {
+  padding-left:25px;
+  padding-right:25px;
+}
+img,
+#l-x,
+#l-y,
+#l-z,
+#nav-big {
+  display:none!important;
+}
