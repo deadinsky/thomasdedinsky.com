@@ -1,16 +1,6 @@
 .navbar {
-  height:100%;
+  height:100%!important;
 }
-.navbar-brand,
-.fa,
-#l-a,
-#l-b,
-#l-c,
-#l-d,
-#l-e,
-#l-f,
-#l-x,
-#l-y,
-#l-z {
+.container {
   display:none!important;
 }
