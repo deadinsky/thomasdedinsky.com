@@ -1,4 +1,4 @@
-var pages = {"home": "a", "work": "b", "projects": "c", "volunteer": "d", "articles": "e", "awards": "f"};
+var pages = {"home": "a", "work": "b", "projects": "c", "volunteer": "d", "articles": "e", "education": "f"};
 var links = {"github": "https://github.com/deadinsky", "linkedin": "https://www.linkedin.com/in/dedinsky", "resume": "http://thomasdedinsky.com/docs/Resume.pdf"}
 
 $(function() {
