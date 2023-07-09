@@ -1,4 +1,4 @@
-var pages = {"home": "a", "work": "b", "projects": "c", "volunteer": "d", "articles": "e", "education": "f"};
+var pages = {"home": "a", "work": "b", "internships": "c", "projects": "d", "volunteer": "e", "articles": "f", "education": "g"};
 var links = {"github": "https://github.com/deadinsky", "linkedin": "https://www.linkedin.com/in/dedinsky", "resume": "http://thomasdedinsky.com/docs/Resume.pdf"}
 
 $(function() {
@@ -74,6 +74,12 @@ $("#s-f").click(function(){
   $("#f").show();
 });
 
+$("#s-g").click(function(){
+  $(".dynamic-content").hide();
+  window.scrollTo(0, 0);
+  $("#g").show();
+});
+
 $("#l-a").click(function(){
   $(".dynamic-content").hide();
   window.scrollTo(0, 0);
@@ -113,5 +119,12 @@ $("#l-f").click(function(){
   $(".dynamic-content").hide();
   window.scrollTo(0, 0);
   $("#f").show();
+  document.getElementsByClassName('navbar-toggle')[0].click();
+});
+
+$("#l-g").click(function(){
+  $(".dynamic-content").hide();
+  window.scrollTo(0, 0);
+  $("#g").show();
   document.getElementsByClassName('navbar-toggle')[0].click();
 });
